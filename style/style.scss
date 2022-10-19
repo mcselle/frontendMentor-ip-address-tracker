@@ -2,13 +2,48 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  margin: 0;
 }
 
 :root {
   --clr-gray-700: hsl(0, 0%, 17%);
   --clr-gray-400: hsl(0, 0%, 59%);
+  --clr-white: #fff;
 
   --fs-400: 18px;
-  --ff-rubik: var(--fs-400) 400 "Rubik" sans-serif;
 }
 
+body{
+  font-size: var(--fs-400);
+  font-family: 'Rubik';
+  font-weight: 400;
+
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  background-image: url(../images/pattern-bg.png);
+  padding: 1em;
+
+  text-align: center;
+
+  h1{
+    color: var(--clr-white);
+  }
+
+  .search-input{
+    margin: 1em 0;
+    
+  }
+
+
+}
+
+main{
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
