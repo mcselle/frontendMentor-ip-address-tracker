@@ -1,0 +1,14 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-gray-700: hsl(0, 0%, 17%);
+  --clr-gray-400: hsl(0, 0%, 59%);
+
+  --fs-400: 18px;
+  --ff-rubik: var(--fs-400) 400 "Rubik" sans-serif;
+}
+
