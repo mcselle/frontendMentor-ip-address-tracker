@@ -15,15 +15,38 @@
 </head>
 <body>
 
-  IP Address Tracker
+<section class="search-section">
+  <h1>IP Address Tracker</h1>
+  <div class="search-input">
+    <input type="text" placeholder="Search for any IP address or domain">
+    <button id="search-button"> > </button>
+  </div>
 
-  Search for any IP address or domain
+  <div class="search-results">
 
-  IP Address
-  Location
-  Timezone
-    UTC <!-- add offset value dynamically using the API -->
-  ISP
+    <div class="stat">
+      <h2>IP Address</h2>
+      <p class="label"><span class="value"></span></p>
+    </div>
+    <div class="stat">
+      <h2>Location</h2>
+      <p class="label"><span class="value"></span></p>
+    </div>
+    <div class="stat">
+      <h2>Timezone</h2>
+      <p class="label"><span class="value"></span></p>
+    </div>
+    <div class="stat">
+      <h2>ISP</h2>
+      <p class="label"><span class="value"></span></p>
+    </div>
+
+  </div>
+</section>
+
+<main class="map">
+  
+</main>
 
 </body>
 </html>
