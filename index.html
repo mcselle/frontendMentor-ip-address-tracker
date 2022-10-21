@@ -40,43 +40,39 @@
 
 <body>
 
-  <section class="search-section">
-    <h1>IP Address Tracker</h1>
-    <div class="search-input">
-      <div>
-
-        <input
-          type="text"
-          placeholder="Search for any IP address or domain"
-        >
-        <button id="search-button"> > </button>
+  <main>
+    <section class="top">
+      <h1>IP Adress Tracker</h1>
+      <form>
+        <input type="text" placeholder="Search for any IP address or domain">
+        <button>
+          <img
+            src="images/icon-arrow.svg"
+            alt="arrow icon"
+          />
+        </button>
+      </form>
+      <div class="card">
+        <div class="stat">
+          <h2>IP Adress</h2>
+          <p>Loading...</p>
+        </div>
+        <div class="stat">
+          <h2>Location</h2>
+          <p>Loading...</p>
+        </div>
+        <div class="stat">
+          <h2>Timezone</h2>
+          <p>Loading...</p>
+        </div>
+        <div class="stat">
+          <h2>ISP</h2>
+          <p>Loading...</p>
+        </div>
       </div>
-    </div>
-    asd
-    <div class="search-results">
-
-      <div class="stat">
-        <h2>IP Address</h2>
-        <p class="label"><span class="value"></span></p>
-      </div>
-      <div class="stat">
-        <h2>Location</h2>
-        <p class="label"><span class="value"></span></p>
-      </div>
-      <div class="stat">
-        <h2>Timezone</h2>
-        <p class="label"><span class="value"></span></p>
-      </div>
-      <div class="stat">
-        <h2>ISP</h2>
-        <p class="label"><span class="value"></span></p>
-      </div>
-
-    </div>
-  </section>
-
-  <main class="map">
-
+    </section>
+    <section class="map">
+    </section>
   </main>
 
 </body>
