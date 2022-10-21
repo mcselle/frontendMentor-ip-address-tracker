@@ -65,7 +65,9 @@ main {
   font-family: inherit;
   border-radius: 1em 0 0 1em;
   outline: none;
-  height: 4em;
+  height: 3.5em;
+  font-weight: 500;
+  font-size: .85em;
 }
 
 .top form button {
@@ -82,5 +84,28 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.top .card {
+  margin-top: 1.5em;
+  background-color: var(--clr-white);
+  border-radius: 1em;
+  padding: 1em 5em;
+  -webkit-box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.top .card .stat h2 {
+  margin: 0;
+  color: var(--clr-gray-400);
+  font-size: .55em;
+  text-transform: uppercase;
+  letter-spacing: .125em;
+  font-weight: 700;
+}
+
+.top .card .stat p {
+  font-weight: 700;
+  margin-top: 0.25em;
 }
 /*# sourceMappingURL=style.css.map */

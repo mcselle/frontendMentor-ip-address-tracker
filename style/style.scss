@@ -58,7 +58,9 @@ main{
       font-family: inherit;
       border-radius: 1em 0 0 1em ;
       outline: none;
-      height: 4em;
+      height: 3.5em;
+      font-weight: 500;
+      font-size: .85em;
     }
 
     button{
@@ -72,6 +74,28 @@ main{
     }
   }
 
-  
+  .card{
+    margin-top: 1.5em;
+    background-color: var(--clr-white);
+    border-radius: 1em;
+    padding: 1em 5em;
+
+    box-shadow: 0px 10px 40px  rgba($color: #000000, $alpha: .2);
+
+    .stat{
+      h2{
+        margin: 0;
+        color: var(--clr-gray-400);
+        font-size: .55em;
+        text-transform: uppercase;
+        letter-spacing: .125em;
+        font-weight: 700;
+      }
+      p{
+        font-weight: 700;
+        margin-top: 0.25em ;
+      }
+    }
+  }
 }
 
